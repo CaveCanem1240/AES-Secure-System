@@ -1,0 +1,44 @@
+behav simulation:
+    128-bit AES encryption pass the behav simulation: 
+        True;
+    192-bit AES encryption pass the behav simulation: 
+        True;
+    256-bit AES encryption pass the behav simulation: 
+        True;
+    128-bit AES decryption pass the behav simulation: 
+        False;
+    192-bit AES decryption pass the behav simulation: 
+        False;
+    256-bit AES decryption pass the behav simulation: 
+        False;
+
+post-synthesis timing simulation:
+    128-bit AES encryption pass the post-synthesis timing simulation: 
+        True;
+    192-bit AES encryption pass the post-synthesis timing simulation: 
+        True;
+    256-bit AES encryption pass the post-synthesis timing simulation: 
+        True;
+    128-bit AES decryption pass the post-synthesis timing simulation: 
+        False;
+    192-bit AES decryption pass the post-synthesis timing simulation: 
+        False;
+    256-bit AES decryption pass the post-synthesis timing simulation: 
+        False;
+
+auto test system:
+    finished complete auto test system:
+        True;
+
+system block diagram:
+    finished qualified system block diagram:
+        True;
+
+report:
+    finished report:
+        True;
+
+extra work:
+    I think these works deserve extra points:
+        Pipeline architecture, continuous processing of test data;
+        Adjustable number of input ports, can adapt to more scenarios;
